@@ -1,5 +1,4 @@
-import buildChessBoard from "./task1";
-import buildEvenRow from "./task1";
+import { buildChessBoard, buildEvenRow } from "./task1";
 
 test(" builds a row using spaces and a specific character", () => {
   expect(buildEvenRow(3, "*")).toBe("* * * ");
