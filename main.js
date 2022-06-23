@@ -1,2 +1,2 @@
-import {buildChessBoard} from './source/task1.js';
-console.log(buildChessBoard(3,3,'*'));
+import { buildChessBoard } from "./source/task1.js";
+console.log(buildChessBoard(3, 3, "*"));
